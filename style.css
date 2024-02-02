@@ -1,0 +1,40 @@
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 {
+ font-size: 18px;
+ text-transform: uppercase;
+ text-align: center;
+}
+.logo {
+ margin-left: auto;
+ margin-right: auto;
+}
+b {
+ text-transform: uppercase;
+}
+p {
+ text-align: justify;
+ width: 330px;
+ display: inline-block;
+ margin: 20px 10px;
+ vertical-align: top;
+}
+h1 {
+ color: darkgreen;
+}
+.ceter {
+ text-align: center;
+ margin-top: 70px;
+}
+.apply {
+ padding: 20px;
+ font-size: 20px;
+ background-color: darkred;
+ color: white;
+}
+button:hover {
+ cursor: pointer;
+}

